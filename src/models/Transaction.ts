@@ -20,8 +20,8 @@ class Transaction {
   @Column()
   value: number;
 
-  // @Column()
-  // category_id: string;
+  @Column()
+  category_id: string;
 
   @CreateDateColumn()
   created_at: Date;
