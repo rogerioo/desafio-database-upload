@@ -15,6 +15,11 @@ export default class CreateTransactionsTable1594099855416
             default: 'uuid_generate_v4()',
           },
           {
+            name: 'title',
+            type: 'varchar',
+            isNullable: false,
+          },
+          {
             name: 'type',
             type: 'varchar',
             enum: ['income', 'outcome'],
