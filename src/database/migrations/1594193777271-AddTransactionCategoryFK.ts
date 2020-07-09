@@ -8,7 +8,7 @@ export default class AddTransactionCategoryFK1594193777271
       new TableForeignKey({
         name: 'transactions_category_fk',
         columnNames: ['category_id'],
-        referencedTableName: 'category',
+        referencedTableName: 'categories',
         referencedColumnNames: ['id'],
         onDelete: 'RESTRICT',
         onUpdate: 'CASCADE',
